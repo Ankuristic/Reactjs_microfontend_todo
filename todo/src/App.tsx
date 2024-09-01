@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import Home from './Home';
-import Age from './Age'
+// import Age from './Age'
+// import Pagination from './Pagination'
+import Language from './Language'
 import './index.scss'
 
 const App = () => (
@@ -11,7 +13,10 @@ const App = () => (
     <div>Language: TypeScript</div>
     <div>CSS: Tailwind</div> */}
     {/* <Home/> */}
-    <Age/>
+    {/* <Age/> */}
+
+    {/* <Pagination/> */}
+    <Language/>
   </div>
 )
 const rootElement = document.getElementById('app')
